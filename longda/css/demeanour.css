@@ -1,0 +1,289 @@
+.longdaTittle .phoneAboutLongda+ul li:nth-child(3) a{
+    background:#14719f;
+}
+.longdaTittle .phoneAboutLongda+ul li:nth-child(2) a{
+    background:#b3b3b3;
+}
+
+
+.main .container{
+    background:#ebebeb;
+}
+
+
+.classification ul li a{
+    /*padding-right:154px;*/
+}
+
+.classification ul li:nth-child(3){
+    background:#14719f;
+}
+.classification ul li:nth-child(3) a{
+    color:#fff;
+}
+.classification ul li:nth-child(3) span{
+    background:url(../images/indexpict.png) no-repeat -82px -118px;
+}
+.classification ul li:nth-child(2),
+.classification ul li:nth-child(1){
+    background:#fff;
+}
+.classification ul li:nth-child(2) a,
+.classification ul li:nth-child(1) a {
+    color:#666;
+}
+.classification ul li:nth-child(1) span{
+    background:url(../images/indexpict.png) no-repeat -48px -118px;
+}
+.classification ul li:hover{
+    background:#14719f;
+}
+.classification ul li:hover a{
+    color:#fff;
+}
+.classification ul li:hover span{
+    background:url(../images/indexpict.png) no-repeat -82px -118px;
+}
+.longdaTittle{
+    height:114px;
+    background:url(../images/aboutTittle_06.jpg) no-repeat center;
+}
+
+.demeanour{
+    /*width:860px;*/
+    width:44.79%;
+    vertical-align: top;
+    margin-top:60px;
+}
+.demeanour ul li{
+    display:inline-block;
+    width:262px;
+    /*height:266px;*/
+    border:2px solid #aaa;
+}
+
+.demeanour ul li:hover{
+    border:2px solid #14719f;
+}
+.demeanour ul li a{
+    color:#fff;
+    display: inline-block;
+    width:262px;
+    height:100%;
+    background:#999;
+}
+.demeanour ul li img{
+    margin-bottom:-4px;
+    width:262px;
+
+}
+.demeanour ul li a p{
+    line-height:46px;
+}
+.demeanour ul li a:hover p{
+    background:#14719f;
+}
+.demeanour ul li:nth-child(2),
+.demeanour ul li:nth-child(5),
+.demeanour ul li:nth-child(8){
+    margin:0 25px 20px;
+}
+div.demeanourphone{
+    display:none;
+}
+.demeanour .pageNav a{
+    color:#666E70;
+    display:inline-block;
+    width:60px;
+    height:30px;
+    background:#f4f6f6;
+    line-height:30px;
+    margin-left:7px;
+}
+.demeanour .pageNav a:hover{
+    background:#999;
+}
+.demeanour .pageNav div{
+    display:inline-block;
+}
+.demeanour .pageNav .pageNumber{
+    display:none;
+}
+.demeanour .pageNav span,
+.demeanour .pageNav .turnPage{
+    display:inline-block;
+}
+
+
+/*�Ŷӷ��Phone*/
+@media screen and (min-width:320px) and (max-width:639px){
+	.longdaTittle{
+		background:#fff;
+	}
+
+
+
+    div.demeanourpc{
+        display:none;
+    }
+    div.demeanourphone{
+        display:block;
+    }
+    .demeanour{
+        width:100%;
+        margin-top:0px;
+        background:#fff;
+    }
+    .demeanour ul li{
+        /*width:224px;*/
+        width:43%;
+        /*height:165px;*/
+		margin-bottom:10px;
+    }
+
+    .demeanour ul li:hover{
+        /*border:2px solid #14719f;*/
+    }
+    .demeanour ul li a{
+        color:#fff;
+        display: inline-block;
+        /*width:224px;*/
+        width:100%;
+    }
+    .demeanour ul li img{
+        /*width:224px;*/
+        width:100%;
+    }
+    .demeanour ul li a p{
+        line-height:35px;
+    }
+    .demeanour ul li a:hover p{
+        background:#14719f;
+    }
+    .demeanour ul li:nth-child(2),
+    .demeanour ul li:nth-child(5),
+    .demeanour ul li:nth-child(8){
+        margin:0;
+    }
+    .companyProfile .demeanour ul li{
+        margin-left:4px;
+        margin-right:5px;
+    }
+    .demeanour ul li:nth-child(3n+3){
+        /*display:none;*/
+    }
+    .demeanour .pageNav{
+        display:-webkit-flex;
+        display:flex;
+        justify-content: space-around;
+    }
+    .demeanour .pageNav a{
+        width:50px;
+        height:25px;
+        line-height:25px;
+        margin-left:8px;
+    }
+    .demeanour .pageNav span,
+    .demeanour .pageNav .turnPage{
+        display:none;
+    }
+    .demeanour .pageNav .pageNumber{
+        display:inline-block;
+        margin:0;
+    }
+    .demeanour .pageNav .pageNumber a{
+        width:18px;
+        height:18px;
+        line-height: 18px;
+    }
+    .demeanour .pageNav .pageNumber a:hover{
+        border:1px solid #14719f;
+        border-radius:3px;
+    }
+    .demeanour .pageNav .pageNumber a.active{
+        border:1px solid #14719f;
+        border-radius:3px;
+    }
+    .pageNav .pageNumber{
+        margin:18px auto;
+    }
+    .companyProfile{
+        margin-bottom:0;
+        background:#fff;
+    }
+}
+@media screen and (min-width:640px) and (max-width:1024px){
+    .companyProfile{
+        width:100%;
+    }
+    .classification{
+        margin-right:0;
+    }
+    .demeanour{
+
+    }
+    .classification ul{
+        width:100%;
+    }
+    .companyProfile .classification ul li:nth-child(1) a{
+        background:#fff;
+        color:#000;
+    }
+    .companyProfile .classification ul li:nth-child(3) a{
+        color:#fff;
+    }
+    .companyProfile .classification ul li:hover a,
+    .companyProfile .classification ul li:hover{
+        background:#14719f;
+        color:#fff;
+    }
+    .classification ul li{
+        width:100%;
+        /*padding-left:10px;*/
+        position: relative;
+    }
+    .classification ul li a{
+        width:97%;
+        padding-left:3%;
+        padding-right:0;
+    }
+    .classification ul li span{
+        position:absolute;
+        top:10px;
+        right: 15px;;
+    }
+    .demeanour{
+        width:76%;
+    }
+    .demeanour ul{
+        width:100%;
+    }
+    .demeanour ul li{
+        width:28%;
+    }
+    .demeanour ul li a{
+        width:100%;
+    }
+    .demeanour ul li img{
+        width:100%;
+    }
+
+    .companyProfile .classification ul+div{
+        width:100%;
+    }
+    .companyProfile .classification .weixincode img{
+        width:100%;
+    }
+    .addressDetail{
+        width:100%;
+    }
+    .addressDetail p{
+        margin:0;
+    }
+    .pageNav{
+        width:100%;
+    }
+    .demeanour .pageNav a{
+        width:50px;
+    }
+}

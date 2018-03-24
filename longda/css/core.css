@@ -1,0 +1,376 @@
+/*��������PC*/
+
+
+
+
+
+.aboutlongda {
+    width: 100%;
+    height: 300px;
+    background: url(../images/coretittle_02.jpg) no-repeat center;
+    position: relative;
+}
+
+.header .nav .nnav ul li:nth-child(1) a{
+    background:#fff;
+}
+.header .nav .nnav ul li:nth-child(5) a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+.header .nav .nnav ul li:hover a{
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+
+
+
+.aboutlongda div.banmod{
+    width: 300px;
+    height: 100px;
+    /*margin-left: 360px;*/
+    position: absolute;
+    top: 90px;
+    background: #14719f;
+    opacity: .8;
+}
+.aboutlongda div h1{
+    margin-top:16px;
+    margin-bottom:12px;
+}
+.aboutlongda div h1, .aboutlongda div p {
+    color: #fff;
+    text-align: left;
+    margin-left: 28px;
+}
+.longdaTittle .phoneAboutLongda,
+.longdaTittle .phoneAboutLongda+ul{
+    display:none;
+}
+
+/*.longdaTittle {*/
+    /*width: 100%;*//*height: 140px;*/
+
+    /*background: url(../images/coretittle_012.jpg) no-repeat center;*/
+/*}*/
+
+.longdaTittle .phoneAboutLongda span{
+    display:inline-block;
+}
+.longdaTittle .phoneAboutLongda .leftline+span,
+.longdaTittle .phoneAboutLongda .rightline{
+    height:30px;
+    line-height:42px;
+    border:2px solid #14719f;
+}
+
+
+.rightline+span,
+.leftline{
+    /*width:140px;*/
+    width:24%;
+    height:16px;
+    border-top:1px solid #14719f;
+}
+.leftline{
+    margin-right:-4px;
+}
+.rightline+span{
+    margin-left:-4px;
+}
+.longdaTittle .phoneAboutLongda div{
+    display:inline-block;
+    color:#14719f;
+   /* padding-left:20px;
+    padding-right:20px;*/
+}
+.longdaTittle .phoneAboutLongda div p:first-child{
+    font-size: 1.25rem;;
+}
+.longdaTittle .phoneAboutLongda div p:last-child{
+    font-size:0.75rem;
+}
+
+.longdaTittle ul{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.longdaTittle ul li{
+    display: inline-block;
+    height:38px;
+    margin-top:16px;
+    margin-bottom:20px;
+
+    vertical-align: top;
+    width:30%;
+}
+.longdaTittle  ul li a{
+    color:#fff;
+    display: inline-block;
+    width:100%;
+    height:38px;
+    line-height:38px;
+    border-radius: 19px;
+    background: #b3b3b3;
+}
+.longdaTittle  ul li a:active{
+    background:#13719f;
+}
+.longdaTittle ul li:nth-child(2){
+    margin-left:9px;
+    margin-right:9px;
+}
+.longdaTittle .phoneAboutLongda,
+.longdaTittle ul{
+    display:none;
+}
+
+.design{
+    width:100%;
+    text-align:left;
+    color:#333;
+}
+.design img{
+    width:100%;
+}
+.design1{
+    display:-webkit-flex;
+    display:flex;
+    justify-content: flex-start;
+}
+.design1 h1{
+    display:inline-block;
+    color:#661500;
+    font-weight: normal;
+    border-bottom:2px solid red;
+    line-height:66px;
+}
+.design1 span{
+    display:inline-block;
+    width:80%;
+    vertical-align: bottom;
+    border-bottom:2px solid #ccc;
+    margin-left:-5px;
+    /*margin-top:-1px;*/
+}
+
+.design2{
+    font-size:14px;
+    line-height:28px;
+}
+.design2 p:first-child{
+    color:red;
+    font-size:16px;
+    font-weight: bold;
+    line-height:45px;
+}
+
+.design3{
+    display:-webkit-flex;
+    display:flex;
+    justify-content: flex-start;
+    margin:20px auto;
+}
+.design3 .left{
+    text-align: center;
+    margin-right:20px;
+}
+.design3 .left h3{
+    line-height:45px;
+}
+.design3 .right>div:nth-child(2){
+    margin:15px auto;
+}
+.design3 .left img:nth-of-type(2){
+    display:none;
+}
+.design3 .right p{
+    font-size:10px;
+}
+
+.design>p{
+    color:red;
+    font-size:1rem;
+    font-weight: bold ;
+    line-height:76px;
+}
+
+.design4{
+    width:100%;
+    /*padding:0 10%;*/
+    margin: 50px auto 70px;
+}
+.design4 .case>div>div{
+    display:-webkit-flex;
+    display:flex;
+    justify-content:flex-start;
+    /*flex-wrap:wrap;*/
+}
+.case .up,
+.case .middle{
+    display:-webkit-flex;
+    display:flex;
+    justify-content:space-around;
+}
+.case>div{
+    margin:20px auto;
+}
+.case>div .designcase p{
+    /*width:100%;*/
+    display:block;
+    font-size:14px;
+    color:#666;
+    line-height:24px;
+}
+.case>div>div>div:first-child{
+    margin-right:5px;
+}
+
+
+
+/*��������Phone*/
+@media screen and (min-width:320px) and (max-width: 639px) {
+    .main{
+        width:100%;
+    }
+    .aboutlongda{
+        height:160px;
+        background:url(../images/coreTitle_02.jpg) no-repeat center;
+    }
+    .aboutlongda div.banmod{
+        width:180px;
+        height:80px;
+        margin-left:20px;
+        position: absolute;
+        left:1%;
+        top:38%;
+    }
+    .aboutlongda div h1,
+    .aboutlongda div p{
+        margin-left:11px;
+    }
+    .aboutlongda div h1{
+        font-size:30px;
+        margin-top:14px;
+        margin-bottom:6px;
+    }
+    .longdaTittle{
+        height:66px;
+        background:#fff;
+    }
+    .longdaTittle .phoneAboutLongda{
+        display: block;
+        margin-top:15px;
+    }
+    .longdaTittle ul{
+        display:none;
+    }
+
+
+
+    .aboutlongda div.banmod{
+        /*width:180px;*/
+        width:59%;
+        height:80px;
+        margin-left:20px;
+        position: absolute;
+        top:20%;
+    }
+
+
+    .content{
+        width:98%;
+    }
+    .design2 p{
+        line-height:20px;
+    }
+    .design3{
+        flex-wrap: wrap;
+    }
+    .design3 .left img:nth-of-type(1){
+        display:none;
+    }
+    .design3 .left img:nth-of-type(2){
+        /*width:100%;*/
+        display:block;
+    }
+    .design4{
+        margin:0;
+    }
+    .design4 .case .up>div,
+    .design4 .case .up{
+        width:100%;
+        flex-wrap:wrap;
+    }
+	.case div div div img{
+		width:100%;
+	}
+    .design4 .case .up .designcase{
+        /*text-align: center;*/
+        /*margin:0 auto;*/
+    }
+    .design4 .middle{
+        display:none;
+    }
+
+}
+@media screen and (min-width:640px) and (max-width: 1024px){
+    .main{
+        width:100%;
+    }
+
+    .header .nav .nnav ul li:nth-child(1) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(1) img{
+        display:none;
+    }
+    .header .nav .nnav ul li:nth-child(5) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(5) img{
+        display:inline-block;
+    }
+
+
+
+
+    .aboutlongda div.banmod{
+        width:300px;
+        height:100px;
+        margin-left:0px;
+        position: absolute;
+        left:10%;
+        top:90px;
+    }
+    .aboutlongda div h1,
+    .aboutlongda div p{
+        margin-left:11px;
+    }
+    .aboutlongda div h1{
+        font-size:30px;
+        margin-top:14px;
+        margin-bottom:6px;
+    }
+
+
+    .content{
+        width:98%;
+    }
+    .design{
+        width:100%;
+    }
+    .design img{
+        /*width:100%;*/
+    }
+
+
+    .design4 .case>div{
+        /*flex-wrap: wrap;*/
+    }
+
+    .case>div>div>div:first-child{
+        margin-right:5px;
+    }
+    
+}

@@ -1,0 +1,715 @@
+/*PC*/
+
+
+
+.aboutlongda {
+    width: 100%;
+    height: 300px;
+    background: url(../images/newstittle_02.jpg) no-repeat center;
+    position: relative;
+}
+.aboutlongda div.banmod{
+    width:300px;
+    height:100px;
+    /*margin-left:360px;*/
+    position: absolute;
+    top:90px;
+    background:#14719f;
+    opacity: .8;
+}
+.aboutlongda div h1,
+.aboutlongda div p{
+    color:#fff;
+    text-align: left;
+    margin-left:28px;
+}
+.aboutlongda div h1{
+    margin-top:16px;
+    margin-bottom:12px;
+}
+
+.longdaTittle{
+    width:100%;
+    height:140px;
+    background:url(../images/newstittle_012.jpg) no-repeat center;
+}
+.longdaTittle .phoneAboutLongda span{
+    display:inline-block;
+}
+.longdaTittle .phoneAboutLongda .leftline+span,
+.longdaTittle .phoneAboutLongda .rightline{
+    height:30px;
+    line-height:42px;
+    border:2px solid #14719f;
+}
+
+
+.rightline+span,
+.leftline{
+    /*width:140px;*/
+    width:22%;
+    height:16px;
+    border-top:1px solid #14719f;
+}
+.leftline{
+    margin-right:-4px;
+}
+.rightline+span{
+    margin-left:-4px;
+}
+.longdaTittle .phoneAboutLongda div{
+    display:inline-block;
+    color:#14719f;
+   /* padding-left:20px;
+    padding-right:20px;*/
+}
+.longdaTittle .phoneAboutLongda div p:first-child{
+    font-size: 1.25rem;;
+}
+.longdaTittle .phoneAboutLongda div p:last-child{
+    font-size:0.75rem;
+}
+
+.longdaTittle ul{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.longdaTittle ul li{
+    display: inline-block;
+    height:38px;
+    margin-top:16px;
+    margin-bottom:20px;
+
+    vertical-align: top;
+    width:30%;
+}
+.longdaTittle  ul li a{
+    color:#fff;
+    display: inline-block;
+    width:100%;
+    height:38px;
+    line-height:38px;
+    border-radius: 19px;
+    background: #b3b3b3;
+}
+.longdaTittle  ul li a:active{
+    background:#13719f;
+}
+.longdaTittle ul li:nth-child(2){
+    margin-left:9px;
+    margin-right:9px;
+}
+.longdaTittle .phoneAboutLongda,
+.longdaTittle ul{
+    display:none;
+}
+
+
+
+.main .container{
+    background:#ebebeb;
+}
+.companyProfile{
+    width:100%;
+    padding-bottom:30px;
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-between;
+}
+.companyProfile div{
+    /*display:inline-block;*/
+}
+.classification{
+    width:23.33%;
+    /*margin-right:60px;*/
+    margin-top:60px;
+}
+.classification .tittle{
+    color:#fff;
+    width:100%;
+    height:100px;
+    text-align: right;
+    background: #14719f;
+}
+.classification .tittle p:nth-child(1){
+    font-size:30px;
+    margin-bottom:13px;
+    padding-right:5px;
+}
+.classification .tittle p:nth-child(2){
+    font-size:24px;
+    padding-right:5px;
+}
+.classification ul li{
+    margin-top:20px;
+    background: #fff;
+    text-align:left;
+    position:relative;
+}
+.classification ul li a{
+
+}
+/* .classification ul li:nth-child(1){
+    background:#14719f;
+}
+.classification ul li:nth-child(1) a{
+    color:#fff;
+} */
+.classification ul .curry{
+    background:#14719f;
+}
+.classification ul .curry a{
+    color:#fff;
+}
+.classification ul li:last-child{
+    margin-bottom:20px;
+}
+.classification ul li:hover a{
+    color:#fff;
+}
+.classification ul li:hover{
+    background: #14719f;
+}
+.classification ul li a,
+.classification ul li span{
+    display:inline-block;
+    height:40px;
+    line-height: 40px;
+}
+.classification ul li a{
+    font-size:16px;
+    color:#666;
+    width:90%;
+    padding-left:10%;
+    /*padding-left:30px;*/
+}
+.classification ul li span{
+    width:20px;
+    height:20px;
+    background:url(../images/indexpict.png) no-repeat -48px -118px;
+    position:absolute;
+    right:15px;
+    top:10px;
+    /*float:right;*/
+    /*margin-right:17px;*/
+    /*margin-top:13px;*/
+}
+/* .classification ul li:first-child span{
+    background:url(../images/indexpict.png) no-repeat -82px -118px;
+} */
+.classification ul .curry span{
+    background:url(../images/indexpict.png) no-repeat -82px -118px;
+}
+.classification ul li a:hover+span{
+    background:url(../images/indexpict.png) no-repeat -82px -118px;
+}
+.classification ul+div{
+    width:100%;
+    background: #fff;
+    display:inline-block;
+    margin-bottom:20px;
+}
+.classification ul+div img{
+    margin:30px auto 8px auto;
+    display:block;
+}
+.classification ul+div a {
+    color: #14719f;
+
+}
+.addressDetail{
+    padding-top:20px;
+    padding-bottom:20px;
+    background: #fff;
+}
+.addressDetail p{
+    font-size:0.875rem;
+    text-align: left;
+    margin-left:30px;
+    margin-right:25px;
+    line-height: 24px;
+}
+
+.addressDetail p:nth-child(1){
+    color:#14719f;
+}
+.header .nav .nnav ul li:nth-child(1) a{
+    background:#fff;
+}
+
+.header .nav .nnav ul li:nth-child(3) a{
+    background:#fff;
+}
+.header .nav .nnav ul li:nth-child(4) a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+
+.demeanour{
+    /*width:860px;*/
+    width:71.66%;
+    vertical-align: top;
+    margin-top:60px;
+}
+.demeanour ul li{
+    display:inline-block;
+    width:262px;
+    height:266px;
+    border:2px solid #aaa;
+}
+
+.demeanour ul li:hover{
+    border:2px solid #14719f;
+}
+.demeanour ul li a{
+    color:#fff;
+    display: inline-block;
+    width:262px;
+    height:100%;
+    background:#999;
+}
+.demeanour ul li img{
+    margin-bottom:-4px;
+    width:262px;
+
+}
+.demeanour ul li a p{
+    line-height:46px;
+}
+.demeanour ul li a:hover p{
+    background:#14719f;
+}
+.demeanour ul li:nth-child(2),
+.demeanour ul li:nth-child(5),
+.demeanour ul li:nth-child(8){
+    margin:0 26px 20px;
+}
+
+.demeanour .pageNav a{
+    color:#666E70;
+    display:inline-block;
+    width:60px;
+    height:30px;
+    background:#f4f6f6;
+    line-height:30px;
+    margin-left:7px;
+}
+.demeanour .pageNav a:hover{
+    background:#14719F;
+    color:#fff;
+}
+.demeanour .pageNav div{
+    display:inline-block;
+}
+.demeanour .pageNav .pageNumber{
+    display:none;
+}
+.demeanour .pageNav span,
+.demeanour .pageNav .turnPage{
+    display:inline-block;
+}
+.newsList{
+    width:100%;
+    /*min-height:100px;*/
+    /*height:182px;*/
+    margin-bottom:20px;
+    background:#fff;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:20px;
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-around;
+}
+
+.newsList .newsListleft{
+	/*display:inline-block;*/
+    /*border:1px solid #aaa;*/
+    /*width:280px;*/
+    /*height:180px;*/
+    width:32.55%;
+    vertical-align: middle;
+    /*margin-left:28px;*/
+    /*margin-right:20px;*/
+    /*background:url(../images/news01.jpg) no-repeat;*/
+}
+.newsList .newsListright{
+    /*width:500px;*/
+    /*display:inline-block;*/
+    width:58.8%;
+    text-align: left;
+    vertical-align: middle;
+}
+.newsTime{
+    font-size:0.75rem;
+    color:#B9BABF;
+}
+.newsList .newsListright p{
+    font-size:0.875rem;
+    line-height:22px;
+    color:#999;
+}
+.newsList .newsListright>p>a{
+    color:#14719f;
+    display:none;
+}
+.newsList .newsListright>a{
+    display:inline-block;
+    color:#fff;
+    width:28%;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    background:#14719f;
+    float:right;
+}
+
+/*********************/
+.moreNews{
+    width:860px;
+    min-height:100px;
+    /*border:1px solid #aaa;*/
+}
+
+.moreNews h4{
+    color:#14719f;
+    font-size:1.125rem;
+}
+/*.moreNews div {
+    width: 860px;
+    height: 537px;
+    background: url(../images/news02.jpg) no-repeat center;
+}*/
+.moreNews p{
+    text-align:left;
+    font-size:0.875rem;
+    line-height:22px;
+}
+ .mettingPage{
+    width:98%;
+    height:36px;
+    background:#14719f;
+    color:#fff;
+    margin-top:27px;
+     padding:0 1%;
+    /*text-align: left;*/
+    line-height: 36px;
+     display:-webkit-flex;
+     display:flex;
+     justify-content: space-between;
+}
+ .mettingPage a{
+    display:inline-block;
+    height:36px;
+    line-height:36px;
+    color:#fff;
+}
+
+ /*.mettingPage a:nth-of-type(1){*/
+    /*margin-left:20px;*/
+/*}*/
+ /*.mettingPage a:nth-of-type(1)+span{*/
+    /*display:inline-block;*/
+    /*margin-right:68.2%;*/
+/*}*/
+@media screen and (min-width:320px) and (max-width:639px){
+    .companyProfile{
+        padding-bottom:0;
+    }
+    .moreNews{
+        width:100%;
+    }
+    .moreNews p{
+        width:95%;
+        margin:0 auto;
+    }
+    /*.moreNews div{
+        width: 100%;
+        height: 300px;
+        background: url(../images/news03.jpg) no-repeat;
+    }*/
+    /*.mettingPage a:nth-of-type(1)+span{*/
+        /*margin-right:25%;*/
+    /*}*/
+    .longdaTittle ul{
+        display:none;
+    }
+    .longdaTittle{
+        min-height:65px;
+    }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:639px) {
+    .main{
+        width:100%;
+    }
+    .content{
+        width:100%;
+    }
+    .longdaTittle{
+        background:#fff;
+    }
+    /* .longdaTittle .phoneAboutLongda+ul li:first-child a{
+        background:#14719f;
+    } */
+    .longdaTittle .phoneAboutLongda+ul .curry a{
+        background:#14719f;
+    }
+    .aboutlongda{
+        width:100%;
+        height:160px;
+        background:url(../images/aboutPhone_02.jpg);
+    }
+    /*.aboutlongda div{*/
+        /*/!*width:180px;*!/*/
+        /*width:62%;*/
+        /*height:80px;*/
+        /*margin-left:20px;*/
+        /*position: absolute;*/
+        /*top:37%;*/
+    /*}*/
+    .aboutlongda div.banmod{
+        /*width:180px;*/
+        width:59%;
+        height:80px;
+        margin-left:20px;
+        position: absolute;
+        top:20%;
+    }
+
+
+    .aboutlongda div h1,
+    .aboutlongda div p{
+        margin-left:15px;
+    }
+    .aboutlongda div h1{
+        font-size:30px;
+        margin-top:14px;
+        margin-bottom:6px;
+    }
+    .companyProfile .classification,
+    .companyProfile .addressDetail{
+        display:none;
+    }
+    .longdaTittle .phoneAboutLongda,
+    .longdaTittle ul{
+        display:block;
+        margin-top:15px;
+    }
+
+    .content{
+        width:100%;
+    }
+    .demeanour{
+        width:100%;
+        margin-top:0px;
+        background:#fff;
+    }
+    .demeanour ul li{
+        /*width:224px;*/
+        width:45%;
+        height:224px;
+    }
+
+    .demeanour ul li:hover{
+        /*border:2px solid #14719f;*/
+    }
+    .demeanour ul li a{
+        color:#fff;
+        display: inline-block;
+        /*width:224px;*/
+        width:100%;
+    }
+    .demeanour ul li img{
+        /*width:224px;*/
+        width:100%;
+    }
+    .demeanour ul li a p{
+        line-height:63px;
+    }
+    .demeanour ul li a:hover p{
+        background:#14719f;
+    }
+    .demeanour ul li:nth-child(2),
+    .demeanour ul li:nth-child(5),
+    .demeanour ul li:nth-child(8){
+        margin:0;
+    }
+    .companyProfile .demeanour ul li{
+        margin-left:4px;
+        margin-right:5px;
+    }
+    .demeanour ul li:nth-child(3n+3){
+        display:none;
+    }
+
+    .demeanour .pageNav a{
+        width:50px;
+        height:25px;
+        line-height:25px;
+        margin-left:8px;
+    }
+    .demeanour .pageNav span,
+    .demeanour .pageNav .turnPage{
+        display:none;
+    }
+    .demeanour .pageNav .pageNumber{
+        display:inline-block;
+    }
+    .demeanour .pageNav .pageNumber a{
+        width:17px;
+        height:18px;
+        line-height: 18px;
+    }
+    .demeanour .pageNav .pageNumber a:hover{
+        border:1px solid #14719f;
+        border-radius:3px;
+    }
+    .demeanour .pageNav .pageNumber a.active{
+        border:1px solid #14719f;
+        border-radius:3px;
+    }
+    .pageNav .pageNumber{
+        margin:18px auto;
+    }
+    .companyProfile{
+        margin-bottom:0;
+        background:#fff;
+    }
+    .newsList{
+        width:100%;
+        min-height:100px;
+        margin:0 0 20px  0;
+        /*background:#f5f5f5;*/
+        padding:30px 5px 20px 5px;
+        background:#f5f5f5;
+
+    }
+    .newsList .newsListleft,
+    .newsList .newsListright>a{
+        display:none;
+    }
+
+    .newsList .newsListright{
+        width:100%;
+    }
+    .newsList .newsListright{
+       /*width:440px;*/
+       width:99%;
+    }
+
+
+    .newsList .newsListright h4{
+        font-size:1.25rem;
+        font-weight: normal;
+        color:#21262D;
+    }
+    .newsList .newsListright>p>a{
+        color:#14719f;
+        display:inline;
+    }
+
+}
+@media screen and (min-width:640px) and (max-width:1024px) {
+    .main{
+        width:100%;
+    }
+
+
+    .header .nav .nnav ul li:nth-child(1) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(1) img{
+        display:none;
+    }
+    .header .nav .nnav ul li:nth-child(4) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(4) img{
+        display:inline-block;
+    }
+
+
+
+    .aboutlongda>div{
+        margin-left:10%;
+    }
+    .content{
+        width:100%;
+    }
+    .companyProfile{
+        width:98%;
+        display:-webkit-flex;
+        display:flex;
+        justify-content: space-between;
+        padding-left:1%;
+        padding-right:1%;
+    }
+    .classification{
+        width:23.33%;
+        margin-right:0;
+    }
+    .classification ul+div{
+
+    }
+    .classification .weixincode img{
+        width:100%;
+        margin:0;
+    }
+    .classification .addressDetail p{
+        margin-left:0;
+        margin-right:0;
+    }
+    .demeanour{
+        width:71.66%;
+        display:-webkit-flex;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .newsList{
+        width:100%;
+    }
+    .newsList .newsListleft{
+        width:32.55%;
+    }
+    .newsList .newsListleft img{
+        width:100%;
+        vertical-align: middle;
+    }
+    .moreNews{
+        width:100%;
+    }
+    .moreNews>div{
+        width:100%;
+    }
+    .classification{
+        margin-right:20px;
+    }
+    .demeanour .pageNav a{
+        margin-left:2px;
+        width:54px;
+    }
+    .mettingPage{
+        /*width:96%;*/
+        /*padding:0 2%;*/
+    }
+    /*.mettingPage a:nth-of-type(1)+span{*/
+        /*margin-right:33%;*/
+    /*}*/
+    .header .nav .nnav ul li:nth-child(2) a{
+        background:#fff;
+    }
+}
+
+
+
+
+
+
+.header .nav .nnav ul li:hover a{
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}

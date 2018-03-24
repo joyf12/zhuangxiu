@@ -1,0 +1,219 @@
+.main .container{
+    background:#ebebeb;
+}
+.classification ul li a{
+    width:100%;
+    padding-left:0;
+}
+.classification ul li{
+    padding-left:30px;
+    position:relative;
+}
+.classification ul li span{
+    position:absolute;
+    top:10px;
+    right:15px;
+}
+.classification ul li:nth-child(1){
+    background:#fff;
+}
+.classification ul li:first-child span{
+    background: url(../images/indexpict.png) no-repeat -47px -116px;
+}
+.classification ul li:last-child span{
+    background: url(../images/indexpict.png) no-repeat -82px -116px;
+}
+.classification ul li:nth-child(1) a{
+    color:#666;
+}
+.classification ul li:nth-child(3){
+    background:#14719f;
+}
+.classification ul li:nth-child(3) a{
+    color:#fff;
+}
+.classification ul li:hover{
+    background:#14719f;
+}
+.classification ul li:hover span{
+    background: url(../images/indexpict.png) no-repeat -82px -116px;
+}
+.classification ul li a:hover{
+    background:#14719f;
+    color:#fff;
+}
+
+/*平板*/
+@media screen and (min-width:640px) and (max-width:1024px){
+    .main{
+        width:100%;
+    }
+    .content{
+        width:100%;
+    }
+    .companyProfile .classification ul li:nth-child(3) a{
+        color:#fff;
+    }
+    .companyProfile .classification ul li:nth-child(1),
+    .companyProfile .classification ul li:nth-child(1) a{
+        background:#fff;
+        color:#000;
+    }
+    .companyProfile .classification ul li:hover{
+        background:#14719f;
+    }
+    .companyProfile .classification ul li a:hover{
+        background:#14719f;
+        color:#fff;
+    }
+
+
+
+    .companyProfile{
+        width:100%;
+    }
+    .classification{
+        /*margin-right:20px;*/
+        margin-right:10px;
+    }
+    .companyProfile .classification ul+div{
+        width:100%;
+    }
+    .companyProfile .classification .weixincode img{
+        width:100%;
+    }
+    .addressDetail{
+        width:100%;
+    }
+    .addressDetail p{
+        margin:0;
+    }
+    .pageNav{
+        width:100%;
+    }
+    .demeanour .pageNav a{
+        width:50px;
+    }
+
+    .companyProfile>div:last-child.metting{
+        width:76%;
+    }
+    .metting .mettingPic{
+        width:100%;
+        display:block;
+    }
+    .active{
+        background:#14719f;
+    }
+}
+.longdaTittle{
+    min-height:65px;
+    /*background:url(../images/aboutTittle_06.jpg) no-repeat center;*/
+}
+.metting{
+    width:44.79%;
+    vertical-align:top;
+    margin-top:60px;
+}
+.metting h2{
+    color:#14719f;
+}
+.metting>span{
+    display:inline-block;
+    margin:16px auto 23px;
+}
+.metting .mettingPic img:last-child{
+    display:none;
+}
+.metting .mettingPic img{
+    width:100%;
+}
+.metting .mettingPage{
+    width:90%;
+    height:36px;
+    background:#14719f;
+    color:#fff;
+    margin-top:27px;
+    text-align: left;
+    line-height: 36px;
+    padding:0 5%;
+}
+.metting .mettingPage a{
+    display:inline-block;
+    height:36px;
+    line-height:36px;
+    color:#fff;
+}
+.metting .mettingPage a:nth-of-type(1){
+    /*margin-left:20px;*/
+}
+.metting .mettingPage a:nth-of-type(1)+span{
+    display:inline-block;
+}
+.metting .mettingPage{
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-between;
+}
+
+/*��˾����Phone*/
+@media screen and (min-width:320px) and (max-width:639px){
+    .longdaTittle .mobilenav li:nth-child(3){
+        border-radius:50%;
+    }
+    .longdaTittle .mobilenav li:nth-child(3) a{
+        color:#fff;
+        background:#14719f;
+    }
+    .longdaTittle .mobilenav li:nth-child(2){
+        border-radius:50%;
+    }
+    .longdaTittle .mobilenav li:nth-child(1){
+        background:#b3b3b3;
+        border-radius:50%;
+    }
+    .longdaTittle .mobilenav li:nth-child(2) a,
+    .longdaTittle .mobilenav li:nth-child(1) a {
+        /*color:#666;*/
+        background:#b3b3b3;
+    }
+    .longdaTittle .mobilenav li:hover{
+        background:#14719f;
+    }
+    .longdaTittle .mobilenav li:hover a{
+        color:#fff;
+    }
+
+
+
+
+
+
+
+
+
+    .metting{
+        width:100%;
+        margin-top:0px;
+        /*margin-bottom:30px;*/
+    }
+    .companyProfile{
+        margin-bottom:0;
+    }
+    .metting>span{
+        margin:10px auto 20px;
+    }
+    .metting .mettingPic img:last-child{
+        display:block;
+    }
+    .metting .mettingPic img:first-child{
+        display:none;
+    }
+    .metting .mettingPage{
+        margin-top:20px;
+    }
+    .metting .mettingPage a:nth-of-type(1)+span{
+        /*margin-right:23%;*/
+    }
+}
+

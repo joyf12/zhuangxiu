@@ -1,0 +1,355 @@
+/*�˲���ƸPC*/
+.header .nav .nnav ul li:nth-child(1) a{
+    background:#fff;
+}
+.header .nav .nnav ul li:nth-child(7) a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+.header .nav .nnav ul li:hover a{
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+
+.aboutlongda{
+    /*border:1px solid #aaa;*/
+    width:100%;
+    height:300px;
+    margin:0 auto;
+    background:url(../images/recruit_02.jpg) no-repeat center;
+    position: relative;
+}
+.aboutlongda div.banmod{
+    width:300px;
+    height:100px;
+    /*margin-left:360px;*/
+    position: absolute;
+    top:90px;
+    background:#14719f;
+    opacity: .8;
+}
+.aboutlongda div h1,
+.aboutlongda div p{
+    color:#fff;
+    text-align: left;
+    margin-left:28px;
+}
+.aboutlongda div h1{
+    margin-top:16px;
+    margin-bottom:12px;
+}
+
+.longdaTittle{
+    width:100%;
+    margin:0 auto;
+    height:140px;
+}
+.longdaTittle .phoneAboutLongda,
+.longdaTittle .phoneAboutLongda+ul{
+    display:none;
+}
+.longdaTittle .phoneAboutLongda span,
+.longdaTittle .phoneAboutLongda>div{
+    display:inline-block;
+	color:#14719f;
+}
+.longdaTittle .phoneAboutLongda .leftline+span,
+.longdaTittle .phoneAboutLongda .rightline{
+    height:30px;
+    line-height:42px;
+    border:2px solid #14719f;
+}
+.longdaTittle .phoneAboutLongda .leftline,
+.longdaTittle .phoneAboutLongda .rightline+span{
+    /*vertical-align: top;*/
+    width:24%;
+    height:17px;
+    border-top:1px solid #14719f;
+
+}
+.longdaTittle {
+    background:url(../images/recruit_03.jpg) no-repeat center;
+}
+
+.recruitment{
+    width:1200px;
+    /*width:73%;*/
+    color:#fff;
+    margin:0 auto;
+    /*padding-top:60px;*/
+    padding-bottom:30px;
+    font-size:0;
+}
+.recruitment div{
+    background:#14719f;
+    display:inline-block;
+    vertical-align: top;
+}
+.recruitment div:nth-child(1),
+.recruitment div:nth-child(4),
+.recruitment div:nth-child(7){
+    /*width:200px;*/
+    width:18%;
+}
+.recruitment div:nth-child(-n+3){
+    height:80px;
+    line-height:80px;
+}
+.recruitment div:nth-child(2),
+.recruitment div:nth-child(5),
+.recruitment div:nth-child(8){
+    /*width:500px;*/
+    width:40.5%;
+    margin-left:2px;
+    margin-right:2px;
+}
+.recruitment div:nth-child(3),
+.recruitment div:nth-child(6),
+.recruitment div:nth-child(9){
+    width:40.5%;
+}
+.recruitment div:nth-child(4),
+.recruitment div:nth-child(5),
+.recruitment div:nth-child(6){
+    margin-top:2px;
+    margin-bottom:2px;
+    height:260px;
+    line-height:260px;
+}
+.recruitment div:nth-child(7),
+.recruitment div:nth-child(8),
+.recruitment div:nth-child(9){
+    height:320px;
+    line-height:320px;
+}
+.recruitment h2 {
+    font-size: 1.875rem;
+}
+.recruitment p{
+    font-size:0.875rem;
+    text-align:left;
+    margin-left:40px;
+    margin-right:40px;
+}
+.recruitment div:nth-child(5),
+.recruitment div:nth-child(6),
+.recruitment div:nth-child(8),
+.recruitment div:nth-child(9){
+    line-height: 24px;
+}
+.recruitment5 p:first-child,
+.recruitment6 p:first-child,
+.recruitment8 p:first-child,
+.recruitment9 p:first-child{
+       margin-top:20px;
+}
+.recruitment div:last-child{
+    margin-top:30px;
+    /*width:1200px;*/
+    width:1200px;
+    height:160px;
+    background:url(../images/recruit_06.jpg) no-repeat center;
+}
+.recruitmentPhone{
+    display:none;
+}
+/*�˲���ƸPhone*/
+@media screen and (min-width:320px) and (max-width:639px){
+
+    .main{
+        width:100%;
+        background:none;
+    }
+    .aboutlongda{
+        width:100%;
+        height:160px;
+        background:url(../images/recruitPhone_02.jpg) no-repeat;
+    }
+    /*.aboutlongda div{*/
+        /*width:180px;*/
+        /*height:80px;*/
+        /*margin-left:20px;*/
+        /*position: absolute;*/
+        /*top:40px;*/
+    /*}*/
+    .content{
+        width:100%;
+    }
+    .aboutlongda div.banmod{
+        /* width: 180px; */
+        width: 56.93%;
+        height: 80px;
+        margin-left: 20px;
+        position: absolute;
+        top: 20%;
+    }
+    .aboutlongda div h1,
+    .aboutlongda div p{
+        margin-left:11px;
+    }
+    .aboutlongda div h1{
+        font-size:30px;
+        margin-top:14px;
+        margin-bottom:6px;
+    }
+    .longdaTittle{
+        width:100%;
+    }
+    .longdaTittle ul{
+        display:none;
+    }
+    .longdaTittle .phoneAboutLongda{
+        display: block;
+        margin-top:15px;
+    }
+    .longdaTittle .phoneAboutLongda .leftline,
+    .longdaTittle .phoneAboutLongda .rightline+span{
+        width:18%;
+    }
+   .longdaTittle{
+       height:67px;
+       background:#fff;
+   }
+    .recruitment{
+        display:none;
+    }
+    .recruitmentPhone{
+        display:block;
+        width:100%;
+        color:#fff;
+    }
+
+    .recruitmentPhone>div{
+        display:inline-block;
+        background:#14719f;
+        vertical-align: top;
+
+    }
+    .recruitmentPhone div >p{
+        font-size:0.875rem;
+    }
+    .recruitmentPhone div h2{
+        font-size: 1.25rem;
+        margin:0 auto;
+    }
+    .recruitmentPhone .recruitment1{
+        /*width:80px;*/
+        width:22%;
+        height:60px;
+        /*line-height:px;*/
+    }
+    .recruitmentPhone .recruitment1 h2{
+        line-height:26px;
+        margin-top:4px;
+        width:40px;
+    }
+    .recruitmentPhone .recruitment4{
+        /*width:395px;*/
+        width:76%;
+        height:60px;
+        line-height:60px;
+    }
+    .recruitmentPhone .recruitment2,
+    .recruitmentPhone .recruitment3{
+        width:22%;
+        height:289px;
+    }
+    .recruitmentPhone .recruitment2 h2,
+    .recruitmentPhone .recruitment3 h2{
+        line-height:28px;
+        margin-top:80px;
+        width:40px;
+    }
+    .recruitmentPhone .recruitment5,
+    .recruitmentPhone .recruitment6{
+        width:76%;
+        height:289px;
+    }
+    .recruitmentPhone .recruitment2,
+    .recruitmentPhone .recruitment5{
+        margin-bottom:8px;
+        margin-top:2px;
+    }
+    .recruitmentPhone .recruitment3,
+    .recruitmentPhone .recruitment6{
+        margin-bottom:8px;
+        height:409px;
+    }
+    .recruitmentPhone p{
+        width:96%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:left;
+    }
+    .recruitmentPhone div:last-child{
+        margin-top:10px;
+        width:100%;
+        height:116px;
+        background:url(../images/recruitPhone_04.jpg) no-repeat center;
+        background-size:100% 100%;
+    }
+}
+@media screen and (min-width:640px) and (max-width:1024px) {
+    .header,.footer,.main{
+        width:100%;
+    }
+
+    .header .nav .nnav ul li:nth-child(1) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(1) img{
+        display:none;
+    }
+    .header .nav .nnav ul li:nth-child(7) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(7) img{
+        display:inline-block;
+    }
+
+
+
+    .aboutlongda{
+        width:100%;
+    }
+    .aboutlongda div.banmod{
+        margin-left:10%;
+    }
+    .longdaTittle{
+        width:100%;
+        background: url(../images/recruit_03.jpg) no-repeat center;
+    }
+    .recruitment{
+        width:100%;
+    }
+    .recruitment div:last-child{
+        width:100%;
+        background: url(../images/recruit_06.jpg) no-repeat center;
+    }
+    .recruitment .recruitment5 p,
+    .recruitment .recruitment6 p,
+    .recruitment .recruitment8 p,
+    .recruitment .recruitment9 p{
+        margin:5px 10px;
+    }
+    .recruitment div:nth-child(1),
+    .recruitment div:nth-child(4),
+    .recruitment div:nth-child(7) {
+        width:18.28%;
+    }
+    .recruitment div:nth-child(4),
+    .recruitment div:nth-child(5),
+    .recruitment div:nth-child(6){
+        height:380px;
+        /*line-height:260px;*/
+    }
+    /*.recruitment .recruitment7,*/
+    /*.recruitment .recruitment8,*/
+    /*.recruitment .recruitment9{*/
+        /*height:444px;*/
+    /*}*/
+    .recruitment div:nth-child(7),
+    .recruitment div:nth-child(8),
+    .recruitment div:nth-child(9){
+        height:444px;
+    }
+}

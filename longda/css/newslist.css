@@ -1,0 +1,14 @@
+@media screen and (max-width: 639px) and (min-width: 320px){
+    .longdaTittle .phoneAboutLongda+ul li:first-child a {
+        background: #b3b3b3;
+        color:#fff;
+    }
+    .longdaTittle .phoneAboutLongda+ul li:last-child a {
+        background: #14719f;
+    }
+
+}
+
+
+
+

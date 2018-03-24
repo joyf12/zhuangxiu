@@ -1,0 +1,510 @@
+/*****main*****/
+
+
+/*����¡��index��ʽ*/
+.header .nav .nnav ul li:nth-child(1) a{
+    background:#fff;
+}
+.header .nav .nnav ul li:nth-child(2) a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+
+.header .nav .nnav ul li:hover a{
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+
+
+.aboutlongda{
+    width:100%;
+    height:300px;
+    background:url(../images/about55_03.jpg) no-repeat center;
+    position: relative;
+}
+.aboutlongda div.banmod{
+    width:300px;
+    height:100px;
+    /*margin-left:360px;*/
+    position: absolute;
+    top:90px;
+    background:#14719f;
+    opacity: .8;
+}
+.aboutlongda div h1,
+.aboutlongda div p{
+    color:#fff;
+    text-align: left;
+    margin-left:28px;
+}
+.aboutlongda div h1{
+    margin-top:16px;
+    margin-bottom:12px;
+}
+
+.longdaTittle{
+    width:100%;
+    height:140px;
+    background:url(../images/aboutTittle_02.jpg) no-repeat center;
+}
+.longdaTittle .phoneAboutLongda span{
+    display:inline-block;
+}
+.longdaTittle .phoneAboutLongda .leftline+span,
+.longdaTittle .phoneAboutLongda .rightline{
+    height:30px;
+    line-height:42px;
+    border:2px solid #14719f;
+}
+
+
+.rightline+span,
+.leftline{
+    /*width:140px;*/
+    width:22%;
+    height:16px;
+    border-top:1px solid #14719f;
+}
+.leftline{
+    margin-right:-4px;
+}
+.rightline+span{
+    margin-left:-4px;
+}
+.longdaTittle .phoneAboutLongda div{
+    display:inline-block;
+    color:#14719f;
+    /*padding-left:20px;
+    padding-right:20px;*/
+}
+.longdaTittle .phoneAboutLongda div p:first-child{
+    font-size: 1.25rem;;
+}
+.longdaTittle .phoneAboutLongda div p:last-child{
+    font-size:0.75rem;
+}
+
+.longdaTittle ul{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.longdaTittle ul li{
+    display: inline-block;
+    height:38px;
+    margin-top:16px;
+    margin-bottom:20px;
+    vertical-align: top;
+    width:30%;
+}
+.longdaTittle  ul li a{
+    color:#fff;
+    display: inline-block;
+    width:100%;
+    height:38px;
+    line-height:38px;
+    border-radius: 19px;
+    background: #b3b3b3;
+    padding-left:5px;
+    padding-right:5px;
+}
+.longdaTittle  ul li a:active{
+    background:#13719f;
+}
+.longdaTittle ul li:nth-child(2){
+    margin-left:9px;
+    margin-right:9px;
+}
+.longdaTittle .phoneAboutLongda,
+.longdaTittle ul{
+    display:none;
+}
+
+
+
+.main .container{
+    background:#ebebeb;
+}
+.companyProfile{
+    min-height:100px;
+    background:#ebebeb;
+    padding-bottom:30px;
+}
+.companyProfile div{
+    display:inline-block;
+}
+.classification{
+    /*width:280px;*/
+    width:23.33%;
+    margin-right:60px;
+    margin-top:60px;
+}
+.classification .tittle{
+    color:#fff;
+    width:100%;
+    height:100px;
+    text-align: right;
+    background: #14719f;
+}
+
+
+.classification .tittle p:nth-child(1){
+    font-size:2.25rem;
+    font-family: "MicrosoftYaHeiLight";
+    margin-bottom:13px;
+    padding-right:5px;
+}
+
+
+.classification .tittle p:nth-child(2){
+    font-family: "MicrosoftYaHeiLight";
+    font-size:1.5rem;
+    padding-right:5px;
+}
+.classification ul li{
+    margin-top:20px;
+    background: #fff;
+    text-align:left;
+    position: relative;
+}
+.classification ul li:nth-child(1){
+    background:#14719f;
+}
+.classification ul li:nth-child(1) a{
+    color:#fff;
+}
+.classification ul li:nth-child(1) span{
+    background:url(../images/indexpict.png) no-repeat -80px -116px;
+}
+.classification ul li:last-child{
+    margin-bottom:20px;
+}
+.classification ul li:hover a{
+    color:#fff;
+}
+.classification ul li:hover span{
+    background:url(../images/indexpict.png) no-repeat -80px -116px;
+}
+.classification ul li:hover{
+    background: #14719f;
+}
+.classification ul li a,
+.classification ul li span{
+    display:inline-block;
+    height:40px;
+    line-height: 40px;
+}
+.classification ul li a{
+    font-size:16px;
+    color:#666;
+    padding-left:10%;
+    width:90%;
+
+}
+.classification ul li span{
+    width:22px;
+    height:22px;
+    background:url(../images/indexpict.png) no-repeat -47px -116px;
+    position:absolute;
+    top:10px;
+    right:10px;
+    /*float:right;*/
+    /*margin-right:17px;*/
+    /*margin-top:13px;*/
+}
+.classification ul+div{
+    width:100%;
+    /*height:280px;*/
+    background: #fff;
+    margin-bottom:20px;
+}
+.classification ul+div img{
+    margin:30px auto 8px auto;
+    display:block;
+    /*width:100%;*/
+}
+.classification ul+div a {
+    color: #14719f;
+}
+.companyProfile{
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.addressDetail{
+    padding-top:20px;
+    padding-bottom:20px;
+    background: #fff;
+}
+.addressDetail p{
+    font-size:0.875rem;
+    text-align: left;
+    margin-left:30px;
+    margin-right:25px;
+    line-height: 24px;
+}
+
+.addressDetail p:nth-child(1){
+    color:#14719f;
+}
+.classification+div{
+    width:71.66%;
+    margin-top:60px;
+    vertical-align: top;
+}
+.floor{
+    /*width:860px; */
+    width:100%;
+    height:300px;
+    background:url(../images/floor_03.jpg) no-repeat;
+    vertical-align: top;
+}
+.companyProfileText{
+    /*width:860px;*/
+    width:100%;
+    min-height:260px;
+    vertical-align: top;
+    margin-top:24px;
+    text-align: left;
+    position: relative;
+}
+.companyProfileText h1,
+.companyProfileText h1+p{
+    width:100%;
+    text-align:center;
+}
+.companyProfileText span{
+    height:0px;
+    width:80px;
+    border:1px solid #aaa;
+    position: absolute;
+    top:67px;
+    display:none;
+}
+.companyProfileText p{
+    color:#666;
+    line-height:32px;
+}
+/*��������indexPhone*/
+@media screen and (min-width:320px) and (max-width:639px){
+    body{
+        background:#fff;
+    }
+    .main{
+        width:100%;
+    }
+    .content{
+        width:100%;
+    }
+    .aboutlongda{
+        width:100%;
+        height:160px;
+        background:url(../images/aboutPhone_02.jpg);
+    }
+    .aboutlongda div.banmod{
+        /*width:180px;*/
+        width:56.93%;
+        height:80px;
+        margin-left:20px;
+        position: absolute;
+        top:20%;
+    }
+    .aboutlongda .banmod h1,
+    .aboutlongda .banmod p{
+        margin-left:15px;
+        line-height: 30px;
+    }
+
+    .aboutlongda div h1{
+        font-size:30px;
+        margin-top:14px;
+        margin-bottom:6px;
+    }
+    .companyProfile{
+        width:100%;
+    }
+    .classification+div{
+        width:100%;
+    }
+    .companyProfile .classification,
+    .companyProfile .addressDetail{
+        display:none;
+    }
+    .floor{
+        width:100%;
+        height:300px;
+        background:url(../images/floor_02.jpg) no-repeat;
+        vertical-align: top;
+    }
+
+    .companyProfileText{
+        /*width:360px;*/
+        width:100%;
+        min-height:200px;
+        /*margin:0 60px;*/
+    }
+    .companyProfileText span{
+        display:inline-block;
+        top:67px;
+        left:3%;
+    }
+    .companyProfileText p{
+        width:94%;
+        font-size: 0.875rem;
+        text-align:justify;
+        margin:0 auto;
+        line-height:30px;
+    }
+    .companyProfileText h1,
+    .companyProfileText h1+p{
+        width:94%;
+        margin:0 auto;
+        text-align:left;
+    }
+
+    .longdaTittle .phoneAboutLongda{
+        display:block;
+        margin-top:15px;
+    }
+    .longdaTittle ul{
+        display:block;
+        margin:0 auto;
+    }
+    .longdaTittle ul li{
+        width:29%;
+    }
+}
+
+
+
+/*��ҵ�Ļ�Phone*/
+@media screen and (min-width:320px) and (max-width:639px){
+    .companyProfile{
+        padding-bottom:0px;
+        margin-bottom:30px;
+        background:#fff;
+    }
+    .classification+div{
+        margin-top:0;
+    }
+    .companyProfile .culture .cultureList{
+        color:#fff;
+        width:140px;
+        height:140px;
+        /*border-radius: 50%;*/
+    }
+
+    .longdaTittle ul li:nth-child(2) a{
+        background: #14719f;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:1024px){
+    .content{
+        width:100%;
+    }
+    .companyProfile .classification ul li:nth-child(1){
+        background:#14719f;
+    }
+    .companyProfile .classification ul li:nth-child(1) a{
+        color:#fff;
+    }
+    .companyProfile .classification ul li:nth-child(2),
+    .companyProfile .classification ul li:nth-child(3){
+        /*background:#bebebe;*/
+        color:#000;
+    }
+    .companyProfile .classification ul li:nth-child(2) a,
+    .companyProfile .classification ul li:nth-child(3) a{
+        color:#000;
+    }
+    .companyProfile .classification ul li:hover{
+        background:#14719f;
+    }
+    .companyProfile .classification ul li a:hover{
+        color:#fff;
+    }
+    .classification ul+div img{
+        margin:0px;
+        width:100%;
+    }
+    .addressDetail{
+        width:100%;
+    }
+    .addressDetail p{
+        margin:0;
+    }
+
+}
+
+
+@media screen and (min-width:640px) and (max-width:1024px){
+    .main{
+        width:100%;
+    }
+
+    .aboutlongda{
+        width:100%;
+        background:url(../images/about55_03.jpg) no-repeat center;
+    }
+    .aboutlongda div.banmod{
+        margin-left:0;
+        left:10%;
+    }
+
+    .longdaTittle{
+        width:100%;
+        background:url(../images/aboutTittle_02.jpg) no-repeat center;
+    }
+    .content{
+        width:100%;
+    }
+    .companyProfile{
+        width:98%;
+        padding-left:1%;
+        padding-right:1%;
+    }
+    .classification .tittle p:nth-child(1){
+        font-size:1.875rem;
+    }
+    .companyProfile .classification+div>.floor{
+        width:100%;
+        background:url(../images/floor_03.jpg) no-repeat center;
+
+    }
+    .header .nav .nnav ul li:nth-child(1) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(1) img{
+        display:none;
+    }
+    .header .nav .nnav ul li:nth-child(2) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(2) img{
+        display:inline-block;
+    }
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:639px){
+    .main{
+        width:100%;
+    }
+	.longdaTittle{
+		background:#fff;
+	}
+   .longdaTittle .phonenav li:nth-child(1) a{
+        background:#14719f;
+    }
+    .longdaTittle .phonenav li:nth-child(2n+2) a{
+        background:#b3b3b3;
+    }
+}
+@media screen and (min-width:320px) and (max-width:639px){
+    .header,.main,.footer{
+        width:100%;
+    }
+}

@@ -1,0 +1,218 @@
+
+.main .container{
+    background: #eeeeee;
+}
+
+.header .nav .nnav ul li:nth-child(2) a{
+    background:#fff;
+    color:#000;
+}
+.header .nav .nnav ul li:nth-child(3) a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+.header .nav .nnav ul li:hover a{
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+
+.companyProfile{
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-between;
+}
+.classification ul li span{
+    width:22px;
+    height:22px;
+    background:url(../images/indexpict.png) no-repeat -47px -116px;
+    /*float:right;*/
+    /*margin-right:17px;*/
+    /*margin-top:13px;*/
+    position:absolute;
+    right:15px;
+    top:9px;
+}
+.classification ul li:hover span{
+    background:url(../images/indexpict.png) no-repeat -81px -116px;
+}
+.classification ul li:first-child span{
+    background:url(../images/indexpict.png) no-repeat -81px -116px;
+
+}
+
+
+
+
+/*�׶�԰����PC*/
+.metting{
+    width:44%;
+}
+
+
+.metting>h2{
+    font-size: 1.5rem;
+    color:#14719F;
+}
+.metting>h2+span{
+    color:#666;
+    line-height:48px;
+}
+.metting ul li{
+    display:inline-block;
+    width:46.51%;
+}
+.metting ul li:nth-child(1),
+.metting ul li:nth-child(3),
+.metting ul li:nth-child(5),
+.metting ul li:nth-child(7){
+    margin-right:45px;
+}
+.metting ul li p{
+    /*text-align:center;*/
+    color:#14719f;
+    /*padding-top:18px;*/
+}
+.metting ul li p>a{
+    color:#14719f;
+    display:inline-block;
+    width:100%;
+    line-height:40px;
+}
+.metting ul li div img:last-child{
+    display:none;
+}
+
+
+.mettingPage{
+    width:100%;
+    background:#14719f;
+    text-align: left;
+    color:#fff;
+    height:22px;
+}
+.mettingPage  a:nth-child(1){
+    display:inline-block;
+    margin-left:10px;
+    line-height:22px;
+    color:#fff;
+}
+.mettingPage span:nth-of-type(2){
+    float:right;
+    display: inline-block;
+    margin-right:10px;
+}
+.mettingPage a:nth-of-type(2){
+    float:right;
+    display:inline-block;
+    line-height:22px;
+    color:#fff;
+}
+
+/*�׶�԰����Phone*/
+@media screen and (min-width:320px) and (max-width:639px){
+    .longdaTittle{
+        height:66px;
+    }
+    .longdaTittle ul{
+        display:none;
+    }
+    .metting{
+        width:100%;
+    }
+    .metting ul li{
+        /*width:453px;*/
+        width:100%;
+        height:160px;
+        margin:0 auto;
+    }
+    .metting ul li p{
+        color:#14719f;
+    }
+
+    .metting ul li p a{
+        font-size:1.125rem;
+        display:inline-block;
+        line-height:20px;
+
+    }
+    .metting ul li div{
+        /*height:135px;*/
+    }
+    .metting ul li div img:last-child{
+        width:100%;
+        display:block;
+    }
+    .metting ul li div img:first-child {
+        width:100%;
+        display: none;
+    }
+}
+@media screen and (min-width:640px) and (max-width:1024px){
+    .main{
+        width:100%;
+    }
+
+    .header .nav .nnav ul li:nth-child(2) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(2) img{
+        display:none;
+    }
+    .header .nav .nnav ul li:nth-child(3) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(3) img{
+        display:inline-block;
+    }
+
+
+
+    .content{
+        width:100%;
+    }
+    .companyProfile{
+        width:98%;
+        padding-left:1%;
+        padding-right:1%;
+    }
+    .classification{
+        margin-right:0;
+        width:31.33%;
+    }
+    .classification ul{
+        width:100%;
+    }
+    .classification ul li{
+        width:95%;
+        padding-left:5%;
+        position: relative;
+    }
+    .classification ul li a{
+        width:100%;
+        padding-left:0;
+    }
+    .classification ul li span{
+        position:absolute;
+        top:10px;
+        right:15px;
+    }
+    .metting{
+        width:76%;
+    }
+    .metting ul{
+        width:100%;
+    }
+    .metting ul li{
+        width:45%;
+    }
+    .metting ul li a{
+        width:100%;
+    }
+    .metting ul li img{
+        width:100%;
+    }
+    .metting ul li:nth-child(1),
+    .metting ul li:nth-child(3),
+    .metting ul li:nth-child(5){
+        margin-right:4px;
+    }
+}

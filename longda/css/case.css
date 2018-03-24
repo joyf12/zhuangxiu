@@ -1,0 +1,772 @@
+/*����չʾPC*/
+
+
+
+
+.header .nav .nnav ul li:nth-child(2) a{
+    background:#fff;
+    color:#000;
+}
+.header .nav .nnav ul li:nth-child(3) a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+.header .nav .nnav ul li:hover a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+.aboutlongda{
+    width:100%;
+    height:300px;
+    background:url(../images/case_02.jpg) no-repeat;
+    position: relative;
+}
+
+/*.aboutlongda .content div{*/
+    /*width:300px;*/
+    /*height:100px;*/
+    /*margin-left:360px;*/
+    /*position: absolute;*/
+    /*top:90px;*/
+    /*background:#14719f;*/
+    /*opacity: .8;*/
+/*}*/
+.aboutlongda div h1,
+.aboutlongda div p{
+    color:#fff;
+    text-align: left;
+    margin-left:28px;
+}
+.aboutlongda div h1{
+    margin-top:16px;
+    margin-bottom:12px;
+}
+
+
+
+
+
+
+
+
+.longdaTittle{
+    height:140px;
+    background:url(../images/case_04.jpg) no-repeat center;
+}
+.longdaTittle .phoneAboutLongda,
+.longdaTittle .phoneAboutLongda+.newadd{
+    display:none;
+}
+.longdaTittle .phoneAboutLongda span{
+    display:inline-block;
+}
+.longdaTittle .phoneAboutLongda .leftline+span,
+.longdaTittle .phoneAboutLongda .rightline{
+    height:30px;
+    line-height:42px;
+    border:2px solid #14719f;
+}
+.main .container{
+    background:#ebebeb;
+}
+.companyProfile{
+    min-height:100px;
+    background:#ebebeb;
+    padding-bottom:0px;
+}
+.companyProfile div{
+    display:inline-block;
+}
+.classification{
+    /*width:280px;*/
+    width:23.33%;
+    margin-right:0px;
+    margin-top:60px;
+    margin-bottom:20px;
+}
+.classification .tittle{
+    color:#fff;
+    width:100%;
+    height:100px;
+    text-align: right;
+    background: #14719f;
+}
+.classification .tittle p:nth-child(1){
+    font-size:30px;
+    margin-bottom:13px;
+    padding-right:5px;
+}
+.classification .tittle p:nth-child(2){
+    font-size:24px;
+    padding-right:5px;
+}
+.classification ul li{
+    margin-top:12px;
+    background: #fff;
+    text-align:left;
+    position: relative;
+}
+.classification ul li:last-child{
+    margin-bottom:20px;
+}
+.classification ul li:hover a{
+    color:#fff;
+}
+.classification ul li:hover{
+    background: #14719f;
+}
+.classification ul li:hover span{
+    background:url(../images/indexpict.png) no-repeat -81px -116px;
+}
+.classification ul li a,
+.classification ul li span{
+    display:inline-block;
+    height:40px;
+    line-height: 40px;
+}
+.classification ul li a{
+    font-size:16px;
+    color:#666;
+    padding-left:30px;
+}
+.classification ul li span{
+    width:22px;
+    height:22px;
+    background:url(../images/indexpict.png) no-repeat -47px -116px;
+    /*float:right;*/
+    /*margin-right:17px;*/
+    /*margin-top:13px;*/
+    position:absolute;
+    right:15px;
+    top:9px;
+}
+.classification ul li:first-child span{
+    background:url(../images/indexpict.png) no-repeat -81px -116px;
+
+}
+.classification ul+div{
+    width:100%;
+    /*height:280px;*/
+    background: #fff;
+    margin-bottom:20px;
+}
+.classification ul+div img{
+    margin:30px auto 8px auto;
+    display:block;
+}
+.classification ul+div a {
+    color: #14719f;
+
+}
+.demeanour{
+    /*width:860px;*/
+    width:71.66%;
+    vertical-align: top;
+    margin-top:60px;
+}
+.demeanour ul{
+    width:100%;
+    text-align: left;
+}
+.demeanour ul li{
+    width:31%;
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.demeanour ul li a{
+    width:100%;
+}
+.demeanour ul li a img{
+    width:100%;
+    margin-bottom:-4px;
+}
+.demeanour ul li{
+    border:2px solid #aaa;
+    display:inline-block;
+}
+
+.demeanour ul li:hover{
+    border:2px solid #14719f;
+}
+.demeanour ul li a{
+    color:#fff;
+    display: inline-block;
+	width:100%;
+    /*height:100%;*/
+    background:#999;
+}
+/*.demeanour ul li img{*/
+    /*margin-bottom:-4px;*/
+    /*width:100%;*/
+
+/*}*/
+.demeanour ul li a p{
+	padding-top:2px;
+    line-height:33px;
+    text-align: center;
+}
+.demeanour ul li a:hover p{
+    background:#14719f;
+}
+.demeanour ul li:nth-child(2),
+.demeanour ul li:nth-child(5),
+.demeanour ul li:nth-child(8){
+    margin-left:19px;
+    margin-right:19px;
+}
+.demeanour ul li:nth-child(4),
+.demeanour ul li:nth-child(5),
+.demeanour ul li:nth-child(6){
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.phonedema{
+    display:none;
+}
+
+.demeanour .pageNav{
+    margin:20px auto;
+}
+.demeanour .pageNav a{
+    color:#666E70;
+    display:inline-block;
+    width:60px;
+    height:30px;
+    background:#f4f6f6;
+    line-height:30px;
+    margin-left:7px;
+}
+.demeanour .pageNav a:hover{
+    background:#14719f;
+    color:#fff;
+}
+.demeanour .pageNav div{
+    display:inline-block;
+}
+.demeanour .pageNav .pageNumber{
+    display:none;
+}
+.demeanour .pageNav span,
+.demeanour .pageNav .turnPage{
+    display:inline-block;
+}
+
+/*�Ŷӷ��Phone*/
+@media screen and (min-width:320px) and (max-width:639px){
+    /*.longdaTittle .phoneAboutLongda,*/
+    .longdaTittle .phoneAboutLongda+.newadd{
+        display:block;
+    }
+    .content{
+        width:100%;
+    }
+    .newadd{
+        display:block;
+        width:100%;
+    }
+    .newadd>div{
+        width:100%;
+    }
+    .newadd1{
+        font-size:0.75em;
+        width:100%;
+        padding-top:20px;
+        padding-bottom:20px;
+        display:-webkit-flex;
+        display:flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+    }
+    .newadd1>div{
+        width:33%;
+        margin:20px auto;
+    }
+    .newadd1>div>a{
+        width:100%;
+        display:inline-block;
+        color:#666;
+    }
+    .newadd1>div a>div:first-child{
+        /*width:70%;*/
+        /*margin:0 auto;*/
+    }
+    .newadd1 a div img{
+        width:60%;
+    }
+    .newadd>div{
+        width:100%;
+    }
+    .newadd1>div:nth-child(5){
+        margin-left:0;
+    }
+    .newadd1>div:nth-child(4){
+        margin-left:0;
+        margin-right:0;
+    }
+
+
+
+
+
+    .demeanour{
+        width:100%;
+        margin-top:0px;
+        background:#fff;
+    }
+    .demeanour .pcdema{
+        display:none;
+    }
+    .demeanour .phonedema{
+        display:block;
+    }
+    .demeanour ul{
+        width:100%;
+    }
+    .demeanour ul li{
+        width:100%;
+        /*margin-left:20px;*/
+    }
+    .demeanour ul li a{
+        width:100%;
+        color:#fff;
+
+    }
+    .demeanour ul li{
+        width:46.4%;
+    }
+
+    .demeanour ul li:hover{
+        /*border:2px solid #14719f;*/
+    }
+
+    .demeanour ul li img{
+        width:100%;
+    }
+    .demeanour ul li a p{
+        /*line-height:63px;*/
+    }
+    .demeanour ul li a:hover p{
+        background:#14719f;
+    }
+    .demeanour ul.phonedema li{
+        margin:0 0 10px;
+        padding:0;
+    }
+    .demeanour ul li:nth-child(even){
+        margin:0;
+    }
+    .demeanour ul li:nth-child(odd){
+        margin-right:8px;
+    }
+    .companyProfile .demeanour ul li{
+        /*margin-left:4px;*/
+        /*margin-right:5px;*/
+    }
+
+    .demeanour .pageNav{
+        margin-bottom:0;
+    }
+
+    .demeanour .pageNav a{
+        width:50px;
+        height:25px;
+        line-height:25px;
+        margin-left:7px;
+    }
+    .demeanour .pageNav span,
+    .demeanour .pageNav .turnPage{
+        display:none;
+    }
+    .demeanour .pageNav .pageNumber{
+        display:inline-block;
+    }
+    .demeanour .pageNav .pageNumber a{
+        width:18px;
+        height:18px;
+        line-height: 18px;
+    }
+    .demeanour .pageNav .pageNumber a:hover{
+        border:1px solid #14719f;
+        border-radius:3px;
+    }
+    .demeanour .pageNav .pageNumber a.active{
+        border:1px solid #14719f;
+        border-radius:3px;
+    }
+    .pageNav .pageNumber{
+        margin:18px auto;
+    }
+    .companyProfile{
+        margin-bottom:0;
+        background:#fff;
+    }
+    .footer{
+        margin-top:0;
+    }
+}
+.addressDetail{
+    padding-top:20px;
+    padding-bottom:20px;
+    background: #fff;
+}
+.addressDetail p{
+    font-size:14px;
+    text-align: left;
+    margin-left:30px;
+    margin-right:25px;
+    line-height: 24px;
+}
+
+.addressDetail p:nth-child(1) {
+    color: #14719f;
+}
+
+
+
+/*����չʾPhone*/
+@media screen and (min-width:320px) and (max-width: 639px) {
+    .aboutlongda{
+        height:160px;
+        background:url(../images/case_03.jpg);
+    }
+    .longdaTittle{
+        height:auto;
+    }
+    .longdaTittle ul{
+        text-align: left;
+    }
+    .longdaTittle ul li {
+        /*width: 42%;*/
+        width:auto;
+        margin:5px;
+    }
+    .longdaTittle  ul li a{
+        /*width:100%;*/
+    }
+    .longdaTittle ul li:nth-child(1) a {
+        background: #14719f;
+    }
+    .longdaTittle ul li:nth-child(2) a {
+        background: #b3b3b3;
+    }
+    .longdaTittle ul li a:hover{
+        background:#14719f;
+        color:#fff;
+    }
+
+
+
+
+    /*.aboutlongda div{*/
+        /*width:180px;*/
+        /*height:80px;*/
+        /*margin-left:20px;*/
+        /*position: absolute;*/
+        /*top:40px;*/
+    /*}*/
+    .aboutlongda div.banmod{
+        /*width:180px;*/
+        width:56.93%;
+        height:80px;
+        margin-left:20px;
+        position: absolute;
+        top:20%;
+    }
+    .aboutlongda div h1,
+    .aboutlongda div p{
+        margin-left:11px;
+    }
+    .aboutlongda div h1{
+        font-size:30px;
+        margin-top:14px;
+        margin-bottom:6px;
+    }
+    .longdaTittle .phoneAboutLongda,
+    .longdaTittle ul {
+        display: block;
+    }
+    .companyProfile .classification,
+    .companyProfile .addressDetail{
+        display:none;
+    }
+    .companyProfile div:last-child{
+        margin-top:0px;
+    }
+    .companyProfile div:last-child>div{
+        display:block;
+    }
+    .companyProfile{
+        padding-bottom:0px;
+        margin-bottom:0px;
+    }
+    .companyProfile .classification,
+    .companyProfile .addressDetail{
+        display:none;
+    }
+    .companyProfile div:last-child{
+        margin-top:0;
+    }
+    .companyProfile div:last-child>div{
+        display:block;
+    }
+
+
+
+
+}
+
+/*�׶�԰����PC*/
+.metting{
+    width:1000px;
+    margin-top:60px;
+    vertical-align: top;
+}
+.metting>h2{
+    color:#14719f;
+    margin-bottom:16px;
+}
+.metting>span{
+    color:#666;
+}
+.metting ul{
+    margin-top:16px;
+}
+.metting ul li{
+    display:inline-block;
+    width:400px;
+    height:360px;
+}
+.metting ul li p{
+    color:#14719f;
+}
+.metting ul li div{
+    height:320px;
+}
+.metting ul li:nth-child(odd){
+    margin-right:40px;
+}
+.metting ul li:nth-child(1){
+    background:url(../images/case_18.jpg)  no-repeat;
+}
+.metting ul li:nth-child(2){
+    background:url(../images/case_15.jpg)  no-repeat;
+}
+.metting ul li:nth-child(3){
+    background:url(../images/case_30.jpg)  no-repeat;
+}
+.metting ul li:nth-child(4){
+    background:url(../images/case_31.jpg)  no-repeat;
+}
+.metting ul li:nth-child(5){
+    background:url(../images/case_41.jpg)  no-repeat;
+}
+.metting ul li:nth-child(6){
+    background:url(../images/case_43.jpg)  no-repeat;
+}
+.metting ul li:nth-child(7){
+    background:url(../images/case_49.jpg)  no-repeat;
+}
+.metting ul li:nth-child(8){
+    background:url(../images/case_52.jpg)  no-repeat;
+}
+.mettingPage{
+    width:1350px;
+    height:36px;
+    margin:0 auto;
+    background:#14719f;
+    color:#fff;
+    text-align: left;
+    line-height: 36px;
+}
+.mettingPage a{
+    display:inline-block;
+    height:36px;
+    line-height:36px;
+    color:#fff;
+}
+.mettingPage a:nth-of-type(1){
+    margin-left:20px;
+}
+.mettingPage a:nth-of-type(1)+span{
+    display:inline-block;
+    margin-right:1085px;
+}
+/*�׶�԰����Phone*/
+@media screen and (min-width:320px) and (max-width:639px){
+    .main{
+        width:100%;
+    }
+    .longdaTittle{
+        min-height:66px;
+		background:#fff;
+    }
+    .longdaTittle ul{
+        display:none;
+    }
+    .metting{
+        width:480px;
+    }
+    .metting ul li{
+        width:453px;
+        height:160px;
+        margin:0 auto;
+    }
+    .metting ul li p{
+        color:#14719f;
+    }
+    .metting ul li div{
+        height:135px;
+    }
+    .metting ul li:nth-child(odd){
+        margin-right:0px;
+    }
+    .metting ul li:nth-child(1){
+        background:url(../images/casePhone_03.jpg)  no-repeat;
+    }
+    .metting ul li:nth-child(2){
+        background:url(../images/casePhone_06.jpg)  no-repeat;
+    }
+    .metting ul li:nth-child(3){
+        background:url(../images/casePhone_08.jpg)  no-repeat;
+    }
+    .metting ul li:nth-child(4){
+        background:url(../images/casePhone_10.jpg)  no-repeat;
+    }
+    .metting ul li:nth-child(5){
+        background:url(../images/casePhone_12.jpg)  no-repeat;
+    }
+    .metting ul li:nth-child(6){
+        background:url(../images/casePhone_14.jpg)  no-repeat;
+    }
+    .metting ul li:nth-child(7){
+        background:url(../images/casePhone_16.jpg)  no-repeat;
+    }
+    .metting ul li:nth-child(8){
+        background:url(../images/casePhone_18.jpg)  no-repeat;
+    }
+    .mettingPage{
+        width:480px;
+
+    }
+    .mettingPage a:nth-of-type(1)+span{
+        margin-right:220px;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:1024px){
+    .main{
+        width:100%;
+    }
+
+
+    .header .nav .nnav ul li:nth-child(2) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(2) img{
+        display:none;
+    }
+    .header .nav .nnav ul li:nth-child(3) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(3) img{
+        display:inline-block;
+    }
+
+
+
+
+    .aboutlongda{
+        width:100%;
+    }
+    .aboutlongda div{
+        margin-left:10%;
+    }
+    .longdaTittle{
+        width:100%;
+        background: url(../images/case_04.jpg) no-repeat center;
+    }
+
+
+
+
+    .companyProfile{
+        width:98%;
+        padding-left:1%;
+        padding-right:1%;
+    }
+    .classification{
+        width:31.33%;
+        margin-right:0;
+    }
+    .companyProfile .classification ul li:nth-child(3),
+    .companyProfile .classification ul li:nth-child(2){
+        background:#fff;
+    }
+    .companyProfile .classification ul li:hover{
+        background:#14719f;
+    }
+    .companyProfile .classification ul li:hover a{
+        color:#fff;
+    }
+    .demeanour{
+
+    }
+    .classification ul{
+        width:100%;
+    }
+    .classification ul li{
+        width:95%;
+        padding-left:5%;
+        position: relative;
+    }
+    .classification ul li a{
+        width:100%;
+        padding-left:0;
+    }
+    .classification ul li span{
+        position:absolute;
+        top:10px;
+        right:15px;
+    }
+    .classification .weixincode img{
+        width:100%;
+        margin:0;
+    }
+    .demeanour{
+        width:76%;
+    }
+    .demeanour ul{
+        width:100%;
+    }
+    .demeanour ul li{
+        width:28%;
+    }
+    .demeanour ul li a{
+        width:100%;
+    }
+    .demeanour ul li img{
+        width:100%;
+    }
+
+    .companyProfile .classification ul+div{
+        width:100%;
+    }
+    .companyProfile .classification .weixincode img{
+        width:100%;
+    }
+    .addressDetail{
+        width:100%;
+    }
+    .addressDetail p{
+        margin:0;
+    }
+    .pageNav{
+        width:100%;
+    }
+    .demeanour .pageNav a{
+        width:50px;
+        margin-left:0;
+    }
+}

@@ -1,0 +1,218 @@
+/*��������PC*/
+.main .container{
+    background:#ebebeb;
+    padding-top:50px;
+    padding-bottom:70px;
+}
+
+.header .nav .nnav ul li:nth-child(2) a{
+    color:#000;
+    background:#fff;
+}
+.header .nav .nnav ul li:nth-child(5) a{
+    background:#fff;
+}
+.header .nav .nnav ul li:nth-child(6) a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+.header .nav .nnav ul li:hover a{
+    color:#fff;
+    background:url(../images/indexpict.png) no-repeat 0 -7px;
+}
+
+
+
+
+.aboutlongda{
+    background:url(../images/serve333.jpg) no-repeat center;
+}
+.longdaTittle {
+    background: url(../images/service01_02.jpg) no-repeat center;
+}
+.nnav ul li:nth-child(6) a{
+    background: url(../images/indexpict.png) no-repeat 0 -7px;
+}
+.service{
+    width:100%;
+    /*min-height:100px;*/
+    /*margin:0 auto;*/
+    text-align:left;
+    /*padding:56px 360px 76px;*/
+    /*background:#ebebeb;*/
+}
+.service h3{
+    color:#14719f;
+}
+.service ul li{
+    /*width:390px;*/
+    width:41.66%;
+    display:inline-block;
+    border-bottom:2px solid #14719f;
+    margin-top:20px;
+    margin-bottom:10px;
+    padding-bottom:10px;
+}
+.service ul li span{
+    display:inline-block;
+    min-width:30px;
+    min-height:16px;
+    vertical-align: middle;
+}
+.service ul li span:first-child{
+    width:46px;
+    height:46px;
+}
+.service ul li:nth-child(2){
+    float:right;
+}
+.service ul li:nth-child(1) span:first-child{
+    background:url(../images/indexpict.png) no-repeat -68px -55px;
+}
+.service ul li:nth-child(2) span:first-child{
+    background:url(../images/email.png) no-repeat;
+}
+.service ul li:nth-child(3) span:first-child{
+    background:url(../images/indexpict.png) no-repeat -131px -55px;
+}
+.service ul+div{
+    margin:40px 0 30px 0;
+}
+.service .positioning{
+    width:100%;
+    height:600px;
+    background:#fff;
+}
+.service .positioning div{
+    padding:0 ;
+}
+#dituContent{
+    width:100%;
+    height:600px;
+}
+
+
+.footer{
+    margin-top:0;
+}
+
+/*��������Phone*/
+@media screen and (min-width:320px) and (max-width:639px){
+    .main .container{
+        background:#fff;
+        padding-top:0px;
+        padding-bottom:30px;
+    }
+    .aboutlongda{
+        background:url(../images/servicePhone_02.jpg) no-repeat center;
+        /*display:none;*/
+    }
+    .longdaTittle ul{
+        display:none;
+    }
+
+    .longdaTittle{
+        height:67px;
+        background:#fff;
+    }
+    .service{
+        width:100%;
+        background:#fff;
+        /*padding:0;*/
+        padding-top:0px;
+        /*padding-bottom:30px;*/
+    }
+    .service ul li{
+        width:100%;
+        display:inline-block;
+        border-bottom:2px solid #14719f;
+        margin-top:20px;
+        margin-bottom:10px;
+        padding-bottom:10px;
+        margin-left:5px;
+    }
+    .service h3{
+        text-align:center;
+    }
+    .service ul li:nth-child(2){
+        clear:both;
+    }
+    .service .positioning{
+        width:100%;
+        height:230px;
+    }
+
+    #dituContent{
+        width:100%;
+        height:230px;
+    }
+    .service ul li span:last-child{
+        width:260px;
+    }
+}
+@media screen and (min-width:640px) and (max-width:1024px) {
+    .main{
+        width:100%;
+    }
+
+    .header .nav .nnav ul li:nth-child(2) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(2) img{
+        display:none;
+    }
+    .header .nav .nnav ul li:nth-child(6) a{
+        background:none;
+    }
+    .header .nav .nnav ul li:nth-child(6) img{
+        display:inline-block;
+    }
+
+
+    /*.nav .nnav ul li a{*/
+        /*width:100%;*/
+    /*}*/
+    /*.nav .nnav ul li img{*/
+        /*left:0;*/
+    /*}*/
+
+
+
+    .longdaTittle{
+        width:100%;
+    }
+    .service{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    .service h3{
+        width:96%;
+        margin:0 auto;
+    }
+    .service ul{
+        width:96%;
+        margin:0 auto;
+    }
+    .service ul li{
+        width:46%;
+    }
+    .service ul li span{
+        font-size:13px;
+    }
+    .service ul+div{
+        width:96%;
+        margin:0 auto;
+    }
+    .service .positioning{
+        width:100%;
+        /*height:390px;*/
+    }
+    .service .positioning div{
+        width:96%;
+        /*margin:10px auto;*/
+    }
+   #dituContent{
+       width:100%;
+   }
+}
